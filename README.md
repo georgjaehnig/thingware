@@ -6,7 +6,7 @@ Inspired by [Diceware](https://en.wikipedia.org/wiki/Diceware), Thingware tries 
 
 Call the script with 3 random numbers. (Generate them e.g. with [Google](https://www.google.com/search?q=random%20number%20between%200%20and%20212686).)
 
-   $ node index.js 191498 15112 12009
+    $ node index.js 191498 15112 12009
 
 ## Example output
 
