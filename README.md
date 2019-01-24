@@ -2,6 +2,14 @@
 
 Inspired by [Diceware](https://en.wikipedia.org/wiki/Diceware), Thingware tries to create easy-memorable yet fairly secure passwords. Instead of 5 random words, Thingware gives you **3 Wikipedia article titles**.
 
+Of these titles, the first and last letters of every word are used to create the password, thus getting to a length of 12 characters.
+
+The idea behind this approach:
+
+- The number of chars to type is minimized.
+- Remember only 3 instead of 5 terms.
+- You not only get some random words to remember but actual things/concepts with a Wikipedia article. You can look up this article later in case you got unsure about the spelling.
+
 ## Usage
 
 Call the script with 3 random numbers. (Generate them e.g. with [Google](https://www.google.com/search?q=random%20number%20between%200%20and%20212686).)
