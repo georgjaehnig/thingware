@@ -1,3 +1,10 @@
 node_modules/
-lists/all.*.txt
+
+# Get this from Wikipedia.
 prepare/enwiki-latest-all-titles-in-ns0
+
+# Temporary wordlists.
+lists/all.*.txt
+
+# Old stuff.
+workbench/
