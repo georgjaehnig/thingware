@@ -1,6 +1,6 @@
 # Thingware
 
-Inspired by [Diceware](https://en.wikipedia.org/wiki/Diceware), Thingware tries to create easy-memorable yet fairly secure passwords. Instead of 5 random words, Thingware gives you **3 Wikipedia article titles**.
+Inspired by [Diceware](https://en.wikipedia.org/wiki/Diceware), Thingware tries to create easy-memorable yet fairly secure passwords. Instead of 5 random words, Thingware gives you **3 Wikipedia article titles** (or more, if you want).
 
 Of these titles, the first and last letters of every word are used to create the password, thus getting to a length of 12 characters.
 
@@ -12,9 +12,13 @@ The idea behind this approach:
 
 ## Usage
 
-Call the script with 3 random numbers. (Generate them e.g. with [Google](https://www.google.com/search?q=random%20number%20between%200%20and%20212686).)
+Call the script with 3 (or more) random numbers. (Generate them e.g. with [Google](https://www.google.com/search?q=random%20number%20between%200%20and%20212686).)
 
     $ node index.js 191498 15112 12009
+
+Or more, if you want:
+
+    $ node index.js 191498 15112 12009 34435
 
 ## Example output
 
