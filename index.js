@@ -23,7 +23,7 @@ function pick_titles(randoms) {
   console.log('');
   console.log("\t" + password);
   console.log('');
-  console.log('Blind entropy: ' +  Math.log2(26).toFixed() * password.length + ' bits (' + password.length +' lowercase chars)');
+  console.log('Blind entropy: ' +  Math.log2(26).toFixed() * password.length + ' bits (' + password.length +' lowercase chars out of 26)');
   console.log('Seen entropy:  ' +  Math.log2(lines.length).toFixed() * randoms.length + ' bits (' + randoms.length + ' article titles out of ' + lines.length + ')');
   console.log('');
   console.log('Feel free to write out one or several words, to increase the length and thus the blind entropy.')
