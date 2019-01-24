@@ -27,6 +27,7 @@ function pick_titles(randoms) {
   console.log('Seen entropy:  53 bits (3 article titles out 212686)');
   console.log('');
   console.log('Feel free to write out one or several words, to increase the length and thus the blind entropy.')
+	// Todo: create these written out variations.
 }
 
 
@@ -34,6 +35,7 @@ function main() {
   
   var args = process.argv.slice(2);
   
+	// Check if arguments are there.
   if (args.length != 3) {
     console.log("Usage: node index.js random_number1 random_number2 random_number3");
     console.log("The random numbers must be between 1 and " + lines.length + ".");
@@ -41,6 +43,7 @@ function main() {
 		return;
   }
 
+	// Create the passphrase.
 	pick_titles(args);
 }
 
