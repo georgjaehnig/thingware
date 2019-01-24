@@ -6,9 +6,9 @@ Of these titles, the first and last letters of every word are used to create the
 
 The idea behind this approach:
 
-- The number of chars to type is minimized.
+- The number of chars to type is minimized: For a 5-word Diceware phrase, you need to type around 30 chars – for a thingware phrase with similar seen entropy only 12 chars.
 - Remember only 3 instead of 5 terms.
-- You not only get some random words to remember but actual things/concepts with a Wikipedia article. You can look up this article later in case you got unsure about the spelling.
+- You not only get some random words to remember but actual things/concepts with a Wikipedia article (Yes, you should read the article, to better remember the term). You can look up this article later in case you got unsure about the spelling.
 
 ## Usage
 
