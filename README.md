@@ -32,7 +32,7 @@ Or more, if you want:
     
     	vutmbiulbbiy
     
-    Blind entropy: 56 bits (12 lowercase chars out of 26)
-    Seen entropy:  53 bits (3 article titles out 212686)
+    Blind entropy: 60 bits (12 lowercase chars out of 26)
+    Seen entropy:  54 bits (3 article titles out 212686)
     
     Feel free to write out one or several words, to increase the length and thus the blind entropy.
